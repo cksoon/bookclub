@@ -2,7 +2,7 @@
 int main()
 {
     int firstNumber, secondNumber, sumOfTwoNumbers;
-    
+    printf("This line is added by Kar Hin~\n");
     printf("Enter two integers: ");
 
     // Two integers entered by user is stored using scanf() function
