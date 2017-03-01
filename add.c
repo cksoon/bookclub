@@ -11,7 +11,7 @@ int main()
     // Two integers entered by user is stored using scanf() function
     scanf("%d %d", &firstNumber, &secondNumber);
 
-    )while(firstNumber != NULL && secondNumber != NULL);
+    )while(firstNumber == NULL && secondNumber == NULL);
 
     // sum of two numbers in stored in variable sumOfTwoNumbers
     sumOfTwoNumbers = firstNumber + secondNumber;
