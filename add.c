@@ -5,8 +5,13 @@ int main()
     
     printf("Enter two integers: ");
 
+    // Input verification to make sure two integers are entered
+    do(
+
     // Two integers entered by user is stored using scanf() function
     scanf("%d %d", &firstNumber, &secondNumber);
+
+    )while(firstNumber != NULL && secondNumber != NULL);
 
     // sum of two numbers in stored in variable sumOfTwoNumbers
     sumOfTwoNumbers = firstNumber + secondNumber;
