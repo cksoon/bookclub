@@ -1,15 +1,15 @@
 #include <stdio.h>
 int main()
 {
-    int firstNumber, secondNumber, sumOfTwoNumbers;
+    float firstNumber, secondNumber, sumOfTwoNumbers;
     
     printf("Enter two integers: ");
 
     // Input verification to make sure two integers are entered
     do(
 
-    // Two integers entered by user is stored using scanf() function
-    scanf("%d %d", &firstNumber, &secondNumber);
+    // Two floats entered by user is stored using scanf() function
+    scanf("%f %f", &firstNumber, &secondNumber);
 
     )while(firstNumber == NULL && secondNumber == NULL);
 
@@ -17,7 +17,7 @@ int main()
     sumOfTwoNumbers = firstNumber + secondNumber;
 
     // Displays sum      
-    printf("%d + %d = %d", firstNumber, secondNumber, sumOfTwoNumbers);
+    printf("%f + %f = %f", firstNumber, secondNumber, sumOfTwoNumbers);
 
     return 0;
 }
