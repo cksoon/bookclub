@@ -12,26 +12,23 @@ int main(int argc, char *argv[])
     }
     else 
     {
-    	int firstNumber, secondNumber, sumOfTwoNumbers;
+    	 float firstNumber, secondNumber, sumOfTwoNumbers;
+	 
 
-    	firstNumber = (int*)argv[1];
-    	secondNumber = (int*)argv[2];
+    	firstNumber = (float*)argv[1];
+    	secondNumber = (float*)argv[2];
     	
-	    // sum of two numbers in stored in variable sumOfTwoNumbers
-    	sumOfTwoNumbers = firstNumber + secondNumber;
-
     	// Displays sum
-    	printf("%d + %d = %d", firstNumber, secondNumber, sumOfTwoNumbers);
+    	printf("%f + %f = %f", firstNumber, secondNumber, sumOfTwoNumbers);
 
     	//Displays subtraction
-	    printf("%d - %d = %d", firstNumber, secondNumber, substract(firstNumber,secondNumber));
+	    printf("%f - %f = %f", firstNumber, secondNumber, substract(firstNumber,secondNumber));
 
  	  	//Displays Multiplication
-    	printf("%d * %d = %d", firstNumber, secondNumber, multiplication(firstNumber,secondNumber));
+    	printf("%f * %f = %f", firstNumber, secondNumber, multiplication(firstNumber,secondNumber));
 
 	    //Displays Division
- 	    printf("%d / %d = %d", firstNumber, secondNumber, division(firstNumber,secondNumber));
+ 	    printf("%f / %f = %f", firstNumber, secondNumber, division(firstNumber,secondNumber));
     	return 0;
     }
-    
 }
